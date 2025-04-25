@@ -9,7 +9,6 @@ body {
 .layout {
   width: 1440px;
   height: 1540px;
-  border: 2px solid red;
 }
 .layout .header {
   width: 1440px;
@@ -404,7 +403,6 @@ body {
   height: 17px;
   vertical-align: center;
   color: rgb(255, 178, 0);
-  border: 2px solid red;
   border: 0.5px solid rgb(255, 178, 0);
 }
 .layout main .fees .payments .payment2 {
