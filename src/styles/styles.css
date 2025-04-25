@@ -1,0 +1,760 @@
+body {
+  background-color: #f9f9f9;
+  font-family: "DM Sans";
+  margin: 0;
+  width: 1440px;
+  height: 1540px;
+}
+
+.layout {
+  width: 1440px;
+  height: 1540px;
+  border: 2px solid red;
+}
+.layout .header {
+  width: 1440px;
+  height: 72px;
+}
+.layout .header .menu-btn {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 24px;
+  left: 270px;
+  bottom: 24px;
+  display: flex;
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+.layout .header .menu-btn .menu {
+  width: 18px;
+  height: 12px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.layout .header .menu-btn .menu span {
+  width: 18px;
+  height: 2px;
+  background-color: #898989;
+}
+.layout .header .input-div {
+  width: 814px;
+  height: 40px;
+  position: absolute;
+  top: 16px;
+  left: 313px;
+  display: flex;
+}
+.layout .header .input-div .input {
+  width: 100%;
+  outline: none;
+  border: none;
+}
+.layout .header .input-div .input::-moz-placeholder {
+  color: #898989;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+.layout .header .input-div .input::placeholder {
+  color: #898989;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+.layout .header .input-div .icon-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.layout .header .input-div .icon-div .icon {
+  color: #898989;
+}
+.layout .header .help-div {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 24px;
+  left: 1210px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.layout .header .help-div .help {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(137, 137, 137);
+  border-radius: 100%;
+}
+.layout .header .help-div .help .icon {
+  font-size: 20px;
+}
+.layout .header .notifications-div {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 24px;
+  left: 1250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: transparent;
+}
+.layout .header .notifications-div .notifications {
+  width: 20px;
+  height: 20px;
+}
+.layout .header .notifications-div .notifications .icon {
+  font-size: 20px;
+  color: rgb(137, 137, 137);
+}
+.layout .header .notifications-div .notifications .dot {
+  width: 6px;
+  height: 6px;
+  position: relative;
+  bottom: 25px;
+  left: 10px;
+  background-color: red;
+  border-radius: 100%;
+  border: 2px solid white;
+}
+.layout .header .account-div {
+  width: 126px;
+  height: 32px;
+  position: absolute;
+  top: 20px;
+  left: 1293px;
+  display: flex;
+  gap: 15px;
+}
+.layout .header .account-div .image {
+  width: 32px;
+  height: 32px;
+}
+.layout .header .account-div .image img {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+}
+.layout .header .account-div .name-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.layout .header .account-div .name-div .name {
+  width: 79px;
+  height: 18px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: rgb(32, 32, 32);
+}
+.layout .header .account-div .name-div .role {
+  width: 36px;
+  height: 16px;
+  top: 17px;
+  left: 47px;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: rgb(137, 137, 137);
+}
+.layout main {
+  width: 1152px;
+  height: 1350px;
+  position: absolute;
+  top: 89px;
+  left: 266px;
+}
+.layout main .fees {
+  width: 1148px;
+  height: 1350px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.2);
+}
+.layout main .fees .title {
+  width: 162px;
+  height: 32.1923065186px;
+  position: relative;
+  top: 24.92px;
+  left: 32px;
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: rgb(0, 101, 167);
+}
+.layout main .fees .underline-div {
+  width: 1147px;
+  position: absolute;
+  top: 81px;
+  left: 5px;
+  border-width: 2px;
+  border-bottom: 2px dashed rgb(255, 224, 155);
+}
+.layout main .fees .grids .name {
+  width: 1096px;
+  height: 81px;
+  position: absolute;
+  top: 102.81px;
+  left: 26px;
+  border-radius: 8px;
+  border-width: 1px;
+}
+.layout main .fees .grids .name label {
+  width: 157px;
+  height: 31.1538467407px;
+  top: 191.81px;
+  left: 292px;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: -2%;
+  color: rgb(22, 98, 166);
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+}
+.layout main .fees .grids .name input {
+  width: 1096px;
+}
+.layout main .fees .grids .level {
+  width: 535px;
+  height: 81px;
+  position: relative;
+  top: 180.77px;
+  left: 26px;
+  grid-column: span 2;
+}
+.layout main .fees .grids .type {
+  width: 536px;
+  height: 81px;
+  position: absolute;
+  top: 180.77px;
+  left: 586px;
+  grid-column: span 2;
+  margin-top: 32px;
+}
+.layout main .fees .grids .program {
+  width: 535px;
+  height: 81px;
+  position: absolute;
+  top: 290.73px;
+  left: 26px;
+  margin-top: 25.96px;
+}
+.layout main .fees .grids .grid {
+  display: flex;
+  flex-direction: column;
+  gap: 8.35px;
+}
+.layout main .fees .grids .grid label {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: -2%;
+  color: rgb(22, 98, 166);
+}
+.layout main .fees .grids .grid input,
+.layout main .fees .grids .grid select {
+  height: 41.5384597778px;
+  border-radius: 8px;
+  border-width: 1px;
+  border: 1px solid rgb(220, 220, 220);
+  outline: none;
+  background-color: 255, 255, 255, 1;
+}
+.layout main .fees .grids .grid input::-moz-placeholder, .layout main .fees .grids .grid select::-moz-placeholder {
+  color: rgb(102, 102, 102);
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.layout main .fees .grids .grid input::placeholder,
+.layout main .fees .grids .grid select::placeholder {
+  color: rgb(102, 102, 102);
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.layout main .fees .title2 {
+  width: 227px;
+  height: 27px;
+  position: relative;
+  top: 342.69px;
+  left: 26px;
+  font-family: DM Sans;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  width: -moz-max-content;
+  width: max-content;
+  color: rgb(22, 98, 166);
+}
+.layout main .fees .payments {
+  display: flex;
+  gap: 10px;
+  position: relative;
+  top: 342px;
+  left: 26px;
+  gap: 43px;
+}
+.layout main .fees .payments .payment {
+  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.2);
+  width: 255px;
+  height: 120px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 7px;
+}
+.layout main .fees .payments .payment .name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 193px;
+  height: 70px;
+  position: relative;
+  top: 25px;
+  left: 31px;
+  gap: 12px;
+}
+.layout main .fees .payments .payment .name .icon {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 12px;
+  border-radius: 100%;
+  background-color: rgb(255, 245, 217);
+}
+.layout main .fees .payments .payment .name .icon img {
+  width: 35px;
+  height: 30.3333320618px;
+}
+.layout main .fees .payments .payment .name .college {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 111px;
+  height: 45px;
+  top: 19.35px;
+  left: 113px;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: rgb(79, 104, 146);
+}
+.layout main .fees .payments .payment .name .college .div2 {
+  width: 60px;
+}
+.layout main .fees .payments .payment .status {
+  width: 140px;
+  height: 70px;
+  position: relative;
+  top: -70px;
+  left: 115px;
+  text-align: center;
+}
+.layout main .fees .payments .payment .status div {
+  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 9px;
+  right: 11px;
+  border: 0.5px solid rgb(255, 178, 0);
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 100%;
+  letter-spacing: 2.5%;
+  width: 52px;
+  height: 17px;
+  vertical-align: center;
+  color: rgb(255, 178, 0);
+  border: 2px solid red;
+  border: 0.5px solid rgb(255, 178, 0);
+}
+.layout main .fees .payments .payment2 {
+  background-color: rgba(0, 132, 202, 0.1);
+}
+.layout main .fees .payments .payment2 .name .icon {
+  background-color: rgb(51, 132, 185);
+}
+.layout main .fees .details {
+  width: 1147px;
+  height: 661px;
+  position: absolute;
+  top: 651px;
+  left: 26px;
+}
+.layout main .fees .details .title3 {
+  width: 139px;
+  height: 30px;
+  position: relative;
+  font-family: "DM Sans";
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: rgb(0, 101, 167);
+}
+.layout main .fees .details .semesters {
+  margin-top: 25px;
+  position: absolute;
+  display: flex;
+  gap: 25px;
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  justify-content: space-evenly;
+}
+.layout main .fees .details .semesters .semester {
+  width: 111px;
+  height: 47px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(138, 184, 215);
+}
+.layout main .fees .details .semesters .active {
+  border-radius: 9px;
+  background-color: rgb(0, 132, 202);
+  color: rgb(255, 247, 230);
+}
+.layout main .fees .details .data {
+  position: relative;
+  top: 111px;
+  font-family: Poppins;
+  display: flex;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: -2%;
+  color: rgb(22, 98, 166);
+}
+.layout main .fees .details .data .form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.layout main .fees .details .data .form .template {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+.layout main .fees .details .data .form .template label {
+  width: 246px;
+  height: 30px;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  color: rgb(22, 98, 166);
+}
+.layout main .fees .details .data .form .template select {
+  width: 627px;
+  top: 921px;
+  height: 44px;
+  font-family: Poppins;
+  left: 294px;
+  border-radius: 8px;
+  border: 1 solid rgb(220, 220, 220);
+}
+.layout main .fees .details .data .form .template select::-moz-placeholder {
+  color: rgb(102, 102, 102);
+}
+.layout main .fees .details .data .form .template select::placeholder {
+  color: rgb(102, 102, 102);
+}
+.layout main .fees .details .data .form .template select option {
+  font-family: Poppins;
+  font-weight: 275;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgb(102, 102, 102);
+}
+.layout main .fees .details .data .form .fee1 {
+  display: flex;
+  gap: 29px;
+}
+.layout main .fees .details .data .form .fee1 .name {
+  width: 355px;
+  height: 85px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.layout main .fees .details .data .form .fee1 .amount {
+  width: 243px;
+  height: 85px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.layout main .fees .details .data .form input,
+.layout main .fees .details .data .form select {
+  background: rgb(255, 255, 255);
+  height: 44px;
+  border-radius: 8px;
+  border: 1px solid rgb(220, 220, 220);
+  font-family: Poppins;
+  font-weight: 275;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgb(102, 102, 102);
+}
+.layout main .fees .details .data .empty {
+  border-right: 1px solid rgb(255, 178, 0);
+  margin-left: 33px;
+  margin-right: 37px;
+  height: 320px;
+  margin-top: 55px;
+}
+.layout main .fees .details .data .bill {
+  width: 362px;
+  height: 381px;
+  top: 880px;
+  left: 999px;
+  border-radius: 8px;
+  border-width: 1px;
+}
+.layout main .fees .details .data .bill .bill-title {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: -2%;
+}
+.layout main .fees .details .data .bill .bill-div {
+  width: 384px;
+  height: 364px;
+  position: relative;
+  top: 10px;
+  border-radius: 28px;
+  background-color: rgb(230, 240, 246);
+  border: 1px solid rgb(230, 240, 246);
+}
+.layout main .fees .details .data .bill .bill-div .title-row {
+  width: 353px;
+  position: relative;
+  top: 15px;
+  left: 16px;
+  height: 40px;
+  border-radius: 7px;
+  border-width: 1px;
+  background-color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: -2%;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  color: rgb(134, 138, 154);
+  align-items: center;
+}
+.layout main .fees .details .data .bill .bill-div .data {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  position: absolute;
+  top: 0px;
+  gap: 30px;
+}
+.layout main .fees .details .data .bill .bill-div .data .item {
+  width: 353px;
+  display: flex;
+  position: relative;
+  top: 65px;
+  left: 16px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: -2%;
+  color: linear-gradient(0deg, #7c8b9d, #7c8b9d), linear-gradient(0deg, rgba(124, 139, 157, 0.2), rgba(124, 139, 157, 0.2));
+  justify-content: space-around;
+}
+.layout main .fees .details .data .bill .final {
+  position: relative;
+  top: 256px;
+  left: 16px;
+  display: flex;
+  gap: 26px;
+  justify-content: center;
+  align-items: center;
+}
+.layout main .fees .details .data .bill .final .total-title {
+  width: 143px;
+  height: 30px;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: -2%;
+  color: rgb(22, 98, 166);
+  width: -moz-max-content;
+  width: max-content;
+}
+.layout main .fees .details .data .bill .final input {
+  width: 158px;
+  height: 44px;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(220, 220, 220);
+}
+.layout main .fees .details .data .bill .final input::-moz-placeholder {
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 275;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  background-color: #fff;
+}
+.layout main .fees .details .data .bill .final input::placeholder {
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 275;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  background-color: #fff;
+}
+.layout main .fees .details .buttons {
+  position: relative;
+  top: 186px;
+  left: 800px;
+  display: flex;
+  gap: 26px;
+}
+.layout main .fees .details .buttons .apply {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 128px;
+  height: 40px;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 132, 202);
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+.layout main .fees .details .buttons .cancel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 131px;
+  height: 40px;
+  font-family: DM Sans;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: rgb(0, 132, 202);
+}
+.layout main .fees .underline-div2 {
+  position: absolute;
+  width: 1147px;
+  top: 1247px;
+  border-top: 2px dashed rgb(255, 224, 155);
+}
+.layout .footer {
+  position: absolute;
+  left: 300px;
+  top: 1498px;
+  height: 42;
+  width: 1085px;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0px;
+  color: rgb(151, 151, 151);
+  border-top: 1px solid rgba(151, 151, 151, 0.3);
+}
+.layout .sidebar {
+  position: absolute;
+  top: 84px;
+  width: 250px;
+  height: 1540px;
+}
+.layout .sidebar .links .link {
+  display: flex;
+  width: 249px;
+  height: 52px;
+  top: 84px;
+  left: 2px;
+  text-decoration: none;
+  display: flex;
+  color: rgb(137, 137, 137);
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  align-items: center;
+}
+.layout .sidebar .links .link img {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 24px;
+}
+.layout .sidebar .links .link div {
+  position: absolute;
+  left: 62px;
+  text-align: left;
+}
+.layout .sidebar .links .active {
+  width: 226px;
+  height: 52px;
+  left: 12px;
+  border-radius: 12px;
+  color: rgb(0, 101, 167);
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}/*# sourceMappingURL=styles.css.map */
