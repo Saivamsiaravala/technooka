@@ -20,6 +20,7 @@ const SideBar = () => {
           return (
             <NavLink
               to={link.path}
+              key={link.id}
               className={({ isActive }) => (isActive ? "active link" : "link")}
             >
               <img src={link.image} alt="" />
