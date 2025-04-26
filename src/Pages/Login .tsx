@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Login({ loginHandler }) {
+function Login({ loginHandler }: { loginHandler: () => void }) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState(false);
@@ -9,11 +9,13 @@ function Login({ loginHandler }) {
     e.preventDefault();
     console.log(email, password);
 
-   if( email.toLowerCase() === "aarohi@gmail.com" && password === "Aarohi@123"){
-    loginHandler()
-   }
-    else{
-        setError(true)
+    if (
+      email.toLowerCase() === "aarohi@gmail.com" &&
+      password === "Aarohi@123"
+    ) {
+      loginHandler();
+    } else {
+      setError(true);
     }
   };
 
